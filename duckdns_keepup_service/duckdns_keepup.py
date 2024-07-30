@@ -22,8 +22,8 @@ some_url = 'https://api.ipify.org' # used to get the public api
 
 # ddns configs
 # better to put into .service file, buh m lazy
-domain = "nulus"
-token = "8cdc9138-ab46-4492-ae0b-afd2230179a2"
+domain = "domain"
+token = "token"
 
 def updateDDNS(ip, verbose = True, clear = False):
     return requests.get("https://www.duckdns.org/update", {
